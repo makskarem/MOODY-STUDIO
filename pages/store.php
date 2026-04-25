@@ -70,8 +70,161 @@ $page_css = ["store.css"];
         </div>
     </div>
 </div>
-
-
 </aside>
+
+<section>
+    <div class="category-info">
+        <h1 class="category-title">Вещи для дома</h1>
+        <p class="category-description">С ПОМОЩЬЮ НАШЕГО БОЛЬШОГО ВЫБОРА АКСЕССУАРОВ ЛЕГКО ПРЕОБРАЗИТЬ ИНТЕРЬЕР ВАШЕЙ КВАРТИРЫ.</p>
+    </div>
+
+    <div class="products-grid" data-products-grid>
+
+        <article class="product-card" data-product-id="1">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/1.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="1">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Покрытый бархатом</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="2">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/2.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="2">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Свеча в стеклянном подсвечнике</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="3">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/3.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="3">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Металлическая рамка для фотографии</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="4">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/4.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="4">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Круглый коврик для пола</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="5">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/5.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="5">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Держатель фонаря класса</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="6">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/6.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="6">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Комплект фланелевого пододеяльника</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="7">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/7.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="7">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Облегающая хлопчатобумажная простыня</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="8">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/8 png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="8">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Маленькая свеча в маленькой баночке</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="9">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/9.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="9">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Комплект пододеяльников в клетку</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="10">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/10.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="10">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Выстиранная льняная наволочка</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="11">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/11.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="11">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Накидка из полушерстяной ткани в рубчик</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+        <article class="product-card" data-product-id="12">
+            <div class="product-image">
+                <img src="/assets/images/store/bedroom/12.png" alt="#" loading="lazy">
+                <button class="wishlist-btn" data-wishlist data-product-id="12">❤️</button>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Мини-фарфоровое блюдо</h3>
+                <div class="product-price">$39</div>
+                <div class="product-rating" data-rating="4.5">★★★★☆</div>
+            </div>
+        </article>
+
+    </div>
+</section>
 
 </div>
