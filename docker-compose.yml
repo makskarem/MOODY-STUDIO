@@ -9,6 +9,8 @@ services:
       - .:/var/www/html
     depends_on:
       - mysql
+    networks:
+      - moody_network
 
   mysql:
     image: mysql:8.0
@@ -16,12 +18,20 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: mydb
-      MYSQL_USER: user
-      MYSQL_PASSWORD: userpass
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: qwerty123
     ports:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d
+    networks:
+      - moody_network
+    command: --default-authentication-plugin=mysql_native_password
+
+networks:
+  moody_network:
+    driver: bridge
 
 volumes:
   db_data:
