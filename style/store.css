@@ -1,0 +1,33 @@
+/* ============================================================== */
+
+/* members-only в файле store.php */
+
+.members-only{
+    height: 265px;
+    background: #DCE1DA;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.members-only__container{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.members-only__container h3{
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+.members-only__container h4{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.members-only__container p{
+    font-size: 21px;
+}
+

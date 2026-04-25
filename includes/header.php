@@ -5,6 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/style.css">
+
+    <?php if (isset($page_css)): ?>
+        <?php foreach ((array)$page_css as $css):?>
+            <link rel="stylesheet" href="/style/<?php echo $css;?>">
+        <?php endforeach?>
+    <?php endif?>
+
     <title>MOODY STUDIO</title>
 </head>
 
